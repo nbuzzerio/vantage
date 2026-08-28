@@ -6,7 +6,7 @@ import { AppShell } from './AppShell'
 
 export function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/vantage">
       <Routes>
         <Route element={<AppShell />}>
           <Route index element={<HomePage />} />
